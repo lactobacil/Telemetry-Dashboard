@@ -10,21 +10,10 @@ import Title from './Title/title';
 function App(): JSX.Element {
   const page = [
     {
-      path: '/currency',
-      Component:
-        <div className="Container">
-          <Header />
-          <Title title='Currency' />
-          <div className="PageContainer">
-            <Currency />
-          </div>
-        </div>
-    }, {
       path: '/calendar',
       Component:
         <div className="Container">
           <Header />
-          <Title title='Calendar' />
           <div className="PageContainer">
             <Calendar />
           </div>

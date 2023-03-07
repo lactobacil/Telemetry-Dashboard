@@ -1,0 +1,39 @@
+.MemoHigh {
+  justify-content: center;
+  justify-items: center;
+  background-color: rgb(153, 51, 110);
+  border-radius: 4px;
+  margin: 0.5vh;
+  gap: 10px;
+}
+.MemoHigh:hover {
+  background-color: rgb(105, 30, 74);
+}
+
+.MemoLow {
+  justify-content: center;
+  justify-items: center;
+  background-color: rgb(140, 84, 188);
+  border-radius: 4px;
+  margin: 0.5vh;
+  gap: 10px;
+}
+.MemoLow:hover {
+  background-color: rgb(24, 13, 50);
+}
+
+.MemoMed {
+  justify-content: center;
+  justify-items: center;
+  background-color: rgb(76, 93, 206);
+  border-radius: 4px;
+  margin: 0.5vh;
+  gap: 10px;
+}
+.MemoMed:hover {
+  background-color: rgb(105, 30, 74);
+}
+
+.MemoTitle {
+  margin-left: 1vh;
+}/*# sourceMappingURL=Memo.css.map */
