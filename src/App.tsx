@@ -6,16 +6,17 @@ import Currency from './Pages/Currency';
 import Login from './Pages/Login/login';
 import Header from './Components/Header/index';
 import Title from './Title/title';
+import Dashboard from './Pages/Dashboard/dashboard';
 
 function App(): JSX.Element {
   const page = [
     {
-      path: '/calendar',
+      path: '/dashboard',
       Component:
         <div className="Container">
           <Header />
           <div className="PageContainer">
-            <Calendar />
+              <Dashboard></Dashboard>
           </div>
         </div>
     }
