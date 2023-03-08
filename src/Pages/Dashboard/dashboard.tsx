@@ -11,8 +11,8 @@ const Dashboard: React.FC = () => {
     <Sidebar></Sidebar>
      <div className="dashboardContainer">
         <Info></Info>
-        <Accelerometer></Accelerometer>
-
+        <Accelerometer/>
+        <Accelerometer/>
      </div>
     </>
   )

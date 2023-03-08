@@ -6,7 +6,6 @@ const Accelerometer: React.FC = () => {
   return (
     <>
      <div className="Accelerometer">
-      Hello
      </div>
     </>
   )

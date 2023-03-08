@@ -1,6 +1,7 @@
 .sidebarContainer {
     display: flex;
+    flex-direction: column;
     background-color: rgb(49, 48, 48);
     width: 40vh;
-    height: 100vh;
+    height: 100%;
 }

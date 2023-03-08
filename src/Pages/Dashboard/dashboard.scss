@@ -1,7 +1,9 @@
 .dashboardContainer{
+    padding: 1vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
     width: 100%;
     height: 100%;
     background-color: rgb(68, 68, 68);
-
-    font-family: Outfit;
 }

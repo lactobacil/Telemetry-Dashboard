@@ -7,6 +7,8 @@ const Info: React.FC = () => {
     <>
      <div className="infoContainer">
         <div className="TitleText"> Toyota Coaster</div>
+        <div className="PlateNumber"> F13204</div>
+        <div className="Line"></div>
      </div>
     </>
   )
